@@ -71,7 +71,7 @@ const signUp = (body) => new Promise((resolve, reject) => {
                 if (userResult) {
                     reject({
                         status: 200,
-                        message: "User already eists",
+                        message: "User already exists",
                     });
                 }
                 else {

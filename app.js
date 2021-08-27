@@ -31,13 +31,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //     res.setHeader('Access-Control-Allow-Credentials', true);
 //     next();
 // });
-app.use(
-    cors({
-        origin: "http://localhost:3000",
-        credentials: true,
-        origin: true
-    })
-);
+// app.use(
+//     cors({
+//         origin: "http://localhost:3000",
+//         credentials: true,
+//         origin: true
+//     })
+// );
+app.use(cors());
 app.use(
     session({
         name: "sid",

@@ -37,3 +37,202 @@ use find {
   verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
 }
 auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T06:20:40.837Z","when":1630045240837,"level_name":"info","seneca_id":"xqp3ax6osirz/1630045240642/9692/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T06:20:40.863Z","when":1630045240863,"level_name":"info","seneca_id":"721p4d7y6vin/1630045240858/9692/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T06:20:41.415Z","when":1630045241415,"level_name":"info","seneca_id":"e19lotnerqit/1630045241410/9692/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T06:20:41.436Z","when":1630045241436,"level_name":"info","seneca_id":"8k5bos35ayld/1630045241429/9692/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T06:20:41.454Z","when":1630045241454,"level_name":"info","seneca_id":"ykbhay0gel1e/1630045241451/9692/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T06:20:41.460Z","when":1630045241460,"level_name":"info","seneca_id":"j39mo7z39ahp/1630045241457/9692/3.23.3/-"}
+app is running at 8080
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T06:20:43.912Z","when":1630045243912,"level_name":"info","seneca_id":"xqp3ax6osirz/1630045240642/9692/3.23.3/-","seneca_did":"4u1r","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T06:20:43.913Z","when":1630045243913,"level_name":"info","seneca_id":"721p4d7y6vin/1630045240858/9692/3.23.3/-","seneca_did":"ooco","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T06:20:43.914Z","when":1630045243914,"level_name":"info","seneca_id":"e19lotnerqit/1630045241410/9692/3.23.3/-","seneca_did":"4gq4","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T06:20:43.914Z","when":1630045243914,"level_name":"info","seneca_id":"8k5bos35ayld/1630045241429/9692/3.23.3/-","seneca_did":"jtk8","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T06:20:43.915Z","when":1630045243915,"level_name":"info","seneca_id":"ykbhay0gel1e/1630045241451/9692/3.23.3/-","seneca_did":"92i5","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T06:20:43.915Z","when":1630045243915,"level_name":"info","seneca_id":"j39mo7z39ahp/1630045241457/9692/3.23.3/-","seneca_did":"31ms","plugin_name":"transport"}
+{"kind":"notice","data":"hello xqp3ax6osirz/1630045240642/9692/3.23.3/-","level":300,"isot":"2021-08-27T06:20:43.917Z","when":1630045243917,"level_name":"info","seneca_id":"xqp3ax6osirz/1630045240642/9692/3.23.3/-"}
+{"kind":"notice","data":"hello 721p4d7y6vin/1630045240858/9692/3.23.3/-","level":300,"isot":"2021-08-27T06:20:43.918Z","when":1630045243918,"level_name":"info","seneca_id":"721p4d7y6vin/1630045240858/9692/3.23.3/-"}
+{"kind":"notice","data":"hello e19lotnerqit/1630045241410/9692/3.23.3/-","level":300,"isot":"2021-08-27T06:20:43.918Z","when":1630045243918,"level_name":"info","seneca_id":"e19lotnerqit/1630045241410/9692/3.23.3/-"}
+{"kind":"notice","data":"hello 8k5bos35ayld/1630045241429/9692/3.23.3/-","level":300,"isot":"2021-08-27T06:20:43.919Z","when":1630045243919,"level_name":"info","seneca_id":"8k5bos35ayld/1630045241429/9692/3.23.3/-"}
+{"kind":"notice","data":"hello ykbhay0gel1e/1630045241451/9692/3.23.3/-","level":300,"isot":"2021-08-27T06:20:43.919Z","when":1630045243919,"level_name":"info","seneca_id":"ykbhay0gel1e/1630045241451/9692/3.23.3/-"}
+{"kind":"notice","data":"hello j39mo7z39ahp/1630045241457/9692/3.23.3/-","level":300,"isot":"2021-08-27T06:20:43.920Z","when":1630045243920,"level_name":"info","seneca_id":"j39mo7z39ahp/1630045241457/9692/3.23.3/-"}
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
