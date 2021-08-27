@@ -236,3 +236,62 @@ use find {
   verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
 }
 auth done
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T08:10:35.312Z","when":1630051835312,"level_name":"info","seneca_id":"2d1jwzq45olx/1630051833950/9552/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T08:10:35.391Z","when":1630051835391,"level_name":"info","seneca_id":"i35m9hp9mbnr/1630051835372/9552/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T08:10:37.104Z","when":1630051837104,"level_name":"info","seneca_id":"h66nvftodh9c/1630051837093/9552/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T08:10:37.139Z","when":1630051837139,"level_name":"info","seneca_id":"q6g4xrbe89nf/1630051837128/9552/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T08:10:37.179Z","when":1630051837179,"level_name":"info","seneca_id":"5g5v306u51qp/1630051837172/9552/3.23.3/-"}
+{"kind":"client","case":"INIT","data":[{"type":"tcp","port":"5000","host":"localhost","protocol":"http","timeout":180000}],"callpoint":"at callpoint (F:\\server\\itechserver\\node_modules\\seneca\\seneca.js:756:30)","level":300,"isot":"2021-08-27T08:10:37.192Z","when":1630051837192,"level_name":"info","seneca_id":"nixkn6wbd8bw/1630051837184/9552/3.23.3/-"}
+app is running at 8080
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T08:10:45.014Z","when":1630051845014,"level_name":"info","seneca_id":"2d1jwzq45olx/1630051833950/9552/3.23.3/-","seneca_did":"fe8l","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T08:10:45.015Z","when":1630051845015,"level_name":"info","seneca_id":"i35m9hp9mbnr/1630051835372/9552/3.23.3/-","seneca_did":"v006","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T08:10:45.016Z","when":1630051845016,"level_name":"info","seneca_id":"h66nvftodh9c/1630051837093/9552/3.23.3/-","seneca_did":"rtf2","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T08:10:45.016Z","when":1630051845016,"level_name":"info","seneca_id":"q6g4xrbe89nf/1630051837128/9552/3.23.3/-","seneca_did":"4oy8","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T08:10:45.017Z","when":1630051845017,"level_name":"info","seneca_id":"5g5v306u51qp/1630051837172/9552/3.23.3/-","seneca_did":"r64s","plugin_name":"transport"}
+{"kind":"plugin","case":"READY","name":"transport","level":300,"isot":"2021-08-27T08:10:45.017Z","when":1630051845017,"level_name":"info","seneca_id":"nixkn6wbd8bw/1630051837184/9552/3.23.3/-","seneca_did":"91bv","plugin_name":"transport"}
+{"kind":"notice","data":"hello 2d1jwzq45olx/1630051833950/9552/3.23.3/-","level":300,"isot":"2021-08-27T08:10:45.019Z","when":1630051845019,"level_name":"info","seneca_id":"2d1jwzq45olx/1630051833950/9552/3.23.3/-"}
+{"kind":"notice","data":"hello i35m9hp9mbnr/1630051835372/9552/3.23.3/-","level":300,"isot":"2021-08-27T08:10:45.020Z","when":1630051845020,"level_name":"info","seneca_id":"i35m9hp9mbnr/1630051835372/9552/3.23.3/-"}
+{"kind":"notice","data":"hello h66nvftodh9c/1630051837093/9552/3.23.3/-","level":300,"isot":"2021-08-27T08:10:45.021Z","when":1630051845021,"level_name":"info","seneca_id":"h66nvftodh9c/1630051837093/9552/3.23.3/-"}
+{"kind":"notice","data":"hello q6g4xrbe89nf/1630051837128/9552/3.23.3/-","level":300,"isot":"2021-08-27T08:10:45.021Z","when":1630051845021,"level_name":"info","seneca_id":"q6g4xrbe89nf/1630051837128/9552/3.23.3/-"}
+{"kind":"notice","data":"hello 5g5v306u51qp/1630051837172/9552/3.23.3/-","level":300,"isot":"2021-08-27T08:10:45.022Z","when":1630051845022,"level_name":"info","seneca_id":"5g5v306u51qp/1630051837172/9552/3.23.3/-"}
+{"kind":"notice","data":"hello nixkn6wbd8bw/1630051837184/9552/3.23.3/-","level":300,"isot":"2021-08-27T08:10:45.022Z","when":1630051845022,"level_name":"info","seneca_id":"nixkn6wbd8bw/1630051837184/9552/3.23.3/-"}
+body aditya@gmail.com
+body @Aditya123
+use find {
+  isBlocked: false,
+  isVerified: false,
+  isGranted: false,
+  role: 0,
+  isNewUser: true,
+  _id: '612759ed39a0be75a8798ceb',
+  name: 'Aditya',
+  email: 'aditya@gmail.com',
+  password: '$2b$10$aiP/V.zL9GF7GnmsqSsLo.VzKu2.A9lQ0PyCtfnRvRrdOeAY5OZmK',
+  publicKey: 'aditya-qkIbrcwDE',
+  __v: 0,
+  createdAt: '2021-08-26T09:07:57.457Z',
+  updatedAt: '2021-08-26T09:07:58.367Z',
+  verificationExpires: '2021-08-26T15:07:58.352Z',
+  verificationToken: '24aa74eb222bb5136e6172b7e48490f74ed71d74'
+}
+auth done
