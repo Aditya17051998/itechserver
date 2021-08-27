@@ -1,0 +1,101 @@
+openapi: "3.0.2"
+info:
+  title: Authentication APIs
+  version: "1.0"
+
+paths:
+  /api/course/section/assignment/create/{courseId}/{sectionId}:
+    post:
+      summary: Create Assignment - Instructor
+      description: Create Assignment
+      tags:
+        - Assignment
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - number
+                - title
+                - description
+                - startDate
+                - endDate
+              properties:
+                number:
+                  type: number
+                title:
+                  type: string
+                description:
+                  type: string
+                media:
+                  required: false
+                  type: string
+                  format: binary
+                startDate:
+                  type: string
+                endDate:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully created assignment
+
+  /api/course/section/lecture/update/{courseId}/{sectionId}/{assignmentId}:
+    post:
+      summary: Update Lecture
+      description: Update Lecture
+      tags:
+        - Assignment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - number
+                - title
+                - description
+                - startDate
+                - endDate
+              properties:
+                number:
+                  type: number
+                title:
+                  type: string
+                description:
+                  type: string
+                startDate:
+                  type: string
+                endDate:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: assignmentId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully updated assignment

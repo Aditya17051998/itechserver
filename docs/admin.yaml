@@ -1,0 +1,187 @@
+openapi: "3.0.2"
+info:
+  title: Authentication APIs
+  version: "1.0"
+
+paths:
+  /api/admin/getAllStudents:
+    get:
+      summary: Get Details of all Students - Admin and Instructor
+      description: Get Details of all Students
+      tags:
+        - Admin
+      responses:
+        "200":
+          description: Returns successfully fetched student deatils
+
+  /api/admin/getAllInstructors:
+    get:
+      summary: Get Details of all Instructors
+      description: Get Details of all Instructors
+      tags:
+        - Admin
+      responses:
+        "200":
+          description: Returns successfully fetched student deatils
+
+  /api/admin/student/grantAccess:
+    post:
+      summary: Grant Access to a Student
+      description: Grant Access to a Student
+      tags:
+        - Admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - userId
+              properties:
+                userId:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Granted Access Successfully
+  
+  /api/admin/instructor/register:
+    post:
+      summary: Register Instructor
+      description: Register Instructor
+      tags:
+        - Admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - name
+                - email
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Registered Instructor Successfully
+
+  /api/admin/student/register:
+    post:
+      summary: Register Student
+      description: Register Student
+      tags:
+        - Admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - name
+                - email
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Registered Student Successfully
+
+  /api/admin/user/update:
+    post:
+      summary: Update User Details
+      description: Update User Details
+      tags:
+        - Admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - userId
+                - name
+                - email
+              properties:
+                userId:
+                  type: string
+                name:
+                  type: string
+                email:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Updated User Details Successfully
+
+  /api/admin/user/block:
+    post:
+      summary: Block a User
+      description: Block a User
+      tags:
+        - Admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - userId
+              properties:
+                userId:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Blocked User Successfully
+
+  /api/admin/user/unblock:
+    post:
+      summary: Unblock a User
+      description: Unblock a User
+      tags:
+        - Admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - userId
+              properties:
+                userId:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Unblocked User Successfully
+
+  /api/admin/user/resend:
+    post:
+      summary: Resend Credentials of a User
+      description: Resend Credentials of a User
+      tags:
+        - Admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - userId
+              properties:
+                userId:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Sent Credentials Successfully
+
+  /api/admin/getAllCourses:
+    get:
+      summary: Get Details of all Courses
+      description: Get Details of all Courses
+      tags:
+        - Admin
+      responses:
+        "200":
+          description: Returns successfully fetched Courses deatils

@@ -1,0 +1,105 @@
+openapi: "3.0.2"
+info:
+  title: Authentication APIs
+  version: "1.0"
+
+paths:
+  /api/course/section/create/{courseId}:
+    post:
+      summary: Create Section
+      description: Create Section
+      tags:
+        - Section
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - number
+                - title
+              properties:
+                number:
+                  type: number
+                title:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          desciption: Returns Created Section Successfully
+
+  /api/course/section/update/{courseId}/{sectionId}:
+    post:
+      summary: Update Section Details
+      description: Update Section Details
+      tags:
+        - Section
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - number
+                - title
+              properties:
+                number:
+                  type: number
+                title:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          desciption: Returns Updated Section Details Successfully
+
+  /api/course/getAllSections/{courseId}:
+    get:
+      summary: Get Details of all sections in a Course
+      description: Get Details of all sections in a Course
+      tags:
+        - Section
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully fetched Sections
+
+  /api/course/section/delete/{courseId}/{sectionId}:
+    delete:
+      summary: Delete Section
+      description: Delete Section
+      tags:
+        - Section
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          desciption: Returns Deleted Section Successfully

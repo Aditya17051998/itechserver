@@ -1,0 +1,149 @@
+openapi: "3.0.2"
+info:
+  title: Authentication APIs
+  version: "1.0"
+
+paths:
+  /api/course/section/lecture/create/{courseId}/{sectionId}:
+    post:
+      summary: Create Lecture
+      description: Create Lecture
+      tags:
+        - Lecture
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - number
+                - title
+                - description
+                - image
+                - video
+                - file
+              properties:
+                number:
+                  type: number
+                title:
+                  type: string
+                description:
+                  type: string
+                image:
+                  type: string
+                video: 
+                  type: string
+                file:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully created lecture
+
+  /api/course/section/lecture/update/{courseId}/{sectionId}/{lectureId}:
+    post:
+      summary: Update Lecture
+      description: Update Lecture
+      tags:
+        - Lecture
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - number
+                - title
+                - description
+                - image
+                - video
+                - file
+              properties:
+                number:
+                  type: number
+                title:
+                  type: string
+                description:
+                  type: string
+                image:
+                  type: string
+                video: 
+                  type: string
+                file:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: lectureId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully updated lecture
+
+  /api/course/getAllLectures/{courseId}/{sectionId}:
+    get:
+      summary: Get Details of all lectures in a section in a section
+      description: Get Details of all lectures in a section in a section
+      tags:
+        - Lecture
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully fetched Lectures
+
+/api/course/section/lecture/delete/{courseId}/{sectionId}/{lectureId}:
+    delete:
+      summary: Delete Lecture
+      description: Delete Lecture
+      tags:
+        - Lecture
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: sectionId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: lectureId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully deleted lecture

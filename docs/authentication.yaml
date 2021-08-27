@@ -1,0 +1,195 @@
+openapi: "3.0.2"
+info:
+  title: Authentication APIs
+  version: "1.0"
+
+paths:
+  /api/authentication/signup:
+    post:
+      summary: Signup for the application
+      description: Signup for the application
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - name
+                - email
+                - password
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string    
+      responses:
+        "200":
+          description: Returns success of signup 
+
+  /api/authentication/signin:
+    post:
+      summary: Signin for the application
+      description: Signin for the application
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - email
+                - password
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string    
+      responses:
+        "200":
+          description: Returns success of signin 
+
+  /api/authentication/signout:
+    get:
+      summary: Signout of the application
+      description: Signout of the application
+      tags:
+        - Authentication
+      responses:
+        "200":
+          description: Returns success of signout 
+
+  /api/authentication/currentUser:
+    get:
+      summary: Signout of the application
+      description: Signout of the application
+      tags:
+        - Authentication
+      responses:
+        "200":
+          description: Returns success of signout 
+
+  /api/authentication/verification/{token}:
+    post:
+      summary: Email verification
+      description: Verify user email using email verification link
+      tags:
+        - Authentication
+      parameters:
+        - in: path
+          name: token
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns Successfully email verified
+
+  /api/authentication/resendVerification:
+    post:
+      summary: Resend verification email
+      description: Send user email verification email again
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - email
+              properties:
+                email:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Verification email sent
+
+  /api/authentication/recoverPassword:
+    post:
+      summary: Recover password email
+      description: Send user password recovery email
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - email
+              properties:
+                email:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Recover email sent
+
+  /api/authentication/resetPassword/{token}:
+    post:
+      summary: Reset user password
+      description: Reset user password using password recovery link
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - password
+              properties:
+                password:
+                  type: string
+      parameters:
+        - in: path
+          name: token
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns Password has been reset successfully using the link
+
+  /api/authentication/validateToken/{token}:
+    get:
+      summary: Token Validation
+      description: Validate token sent in password recovery email
+      tags:
+        - Authentication
+      parameters:
+        - in: path
+          name: token
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns Password recovery link is valid
+
+  /api/authentication/changePassword:
+    post:
+      summary: Change active user's password
+      description: Change active user's password
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - currentPassword
+                - newPassword
+              properties:
+                currentPassword:
+                  type: string
+                newPassword:
+                  type: string
+      responses:
+        "200":
+          description: Returns Password has been changed successfully

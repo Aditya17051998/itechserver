@@ -1,0 +1,198 @@
+openapi: "3.0.2"
+info:
+  title: Authentication APIs
+  version: "1.0"
+
+paths:
+  /api/course/create:
+    post:
+      summary: Create Course
+      description: Create Course
+      tags:
+        - Course
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - title
+                - description
+                - outline
+                - duration
+                - category
+                - courseCode
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+                outline:
+                  type: string
+                duration:
+                  type: string
+                category:
+                  type: string
+                courseCode:
+                  type: string
+      responses:
+        "200":
+          desciption: Returns Created Course Successfully
+
+  /api/course/update/{courseId}:
+    post:
+      summary: Update Course Details
+      description: Update Course Details
+      tags:
+        - Course
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - title
+                - description
+                - outline
+                - duration
+                - category
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+                outline:
+                  type: string
+                duration:
+                  type: string
+                category:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          desciption: Returns Updated Course Details Successfully
+
+  /api/course/enroll/{courseId}:
+    post:
+      summary: Enroll in a Course
+      description: Enroll in a Course
+      tags:
+        - Enrollment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - userId
+              properties:
+                userId:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns Enrolled in Course successfully
+
+  /api/course/unenroll/{courseId}:
+    post:
+      summary: Unenroll in a Course
+      description: Unenroll in a Course
+      tags:
+        - Enrollment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              required:
+                - userId
+              properties:
+                userId:
+                  type: string
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns Unenrolled in Course successfully
+
+  /api/course/getAllStudents/{courseId}:
+    get:
+      summary: Get Details of all Enrolled Students in a Course
+      description: Get Details of all Enrolled Students in a Course
+      tags:
+        - Enrollment
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully fetched Student deatils
+
+  /api/course/getAllCourses:
+    get:
+      summary: Get All Courses Created by an Instructor
+      description: Get All Courses Created by an Instructor
+      tags:
+        - Course
+      responses:
+        "200":
+          description: Returns successfully fetched Course Details
+
+  /api/course/delete/{courseId}:
+    delete:
+      summary: Delete Course
+      description: Delete Course
+      tags:
+        - Course
+      parameters:
+        - in: path
+          name: courseId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          desciption: Returns Updated Course Details Successfully
+
+  /api/course/getEnrolledCourses:
+    get:
+      summary: Get Enrolled Courses - Student
+      description: Get Enrolled Courses - Student
+      tags:
+        - Course
+      responses:
+        "200":
+          description: Returns successfully fetched Enrolled Courses
+
+  /api/course/single/{publicKey}:
+    get:
+      summary: Get Details of a Course
+      description: Get Details of a Course
+      tags:
+        - Course
+      parameters:
+        - in: path
+          name: publicKey
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns successfully fetched Course deatils
