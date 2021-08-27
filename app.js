@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+const port=process.env || process.env.APP_PORT
 const express = require("express");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
@@ -72,7 +73,7 @@ app.use("/api/course", assignmentRoute);
 app.use("/api/course", courseStudentRoute);
 
 
-app.listen(process.env.APP_PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log(`app is running at ${process.env.APP_PORT}`);
 });
 
