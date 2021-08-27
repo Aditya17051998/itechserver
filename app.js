@@ -3,11 +3,11 @@ require("dotenv").config();
 const port=process.env.PORT || process.env.APP_PORT
 const express = require("express");
 const bodyParser = require("body-parser");
-const cookieParser = require("cookie-parser");
+// const cookieParser = require("cookie-parser");
 const cors = require("cors");
 // const swaggerUI = require("swagger-ui-express");
-const passport = require("passport");
-const session = require("express-session");
+// const passport = require("passport");
+// const session = require("express-session");
 
 // const swagger = require("./lib/swagger");
 const mainRoute = require("./routes/index");
